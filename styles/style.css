@@ -76,37 +76,39 @@
   object-position: center;
 }
 
-.card__image-start {
+.card__image-contain {
+  object-fit: contain;
+}
+
+.card__image-saturate-normal {
   filter: saturate(1);
 }
 
-.card__image-doubt {
+.card__image-grayscale {
   filter: grayscale(0.8);
 }
 
-.card__image-confidence {
+.card__image-saturate-high {
   filter: saturate(4);
 }
 
-.card__image-focus {
-  object-fit: contain;
+.card__image-hue-rotate {
   filter: hue-rotate(25deg);
 }
 
-.card__image-support {
+.card__image-invert {
   filter: invert(0.7);
 }
 
-.card__image-search {
+.card__image-sepia {
   filter: sepia(0.9);
 }
 
-.card__image-pause {
-  object-fit: contain;
+.card__image-blur {
   filter: blur(1px);
 }
 
-.card__image-forward {
+.card__image-hue-opacity {
   filter: hue-rotate(90deg) opacity(0.6);
 }
 
@@ -186,6 +188,9 @@
 
 .button:focus {
   outline: none;
+}
+
+.button:focus-visible {
   box-shadow: 2px 2px 0 var(--accent-color, #000);
 }
 
