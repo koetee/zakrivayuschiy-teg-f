@@ -1,1 +1,1 @@
-https://koetee.github.io/zakrivayuschiy-teg-f/
+https://github.com/koetee/zakrivayuschiy-teg-f
