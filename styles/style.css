@@ -73,7 +73,7 @@
   block-size: auto;
   aspect-ratio: 1;
   object-fit: cover;
-  object-position: right center;
+  object-position: center;
 }
 
 .card__image-start {
